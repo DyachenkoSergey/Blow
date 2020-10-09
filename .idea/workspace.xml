@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f9168a7c-8b93-49d9-b698-e66518bdaa1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/body_bg_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/69ff39d0a4b9d17fa97d29ec9579325f14a03027/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/69ff39d0a4b9d17fa97d29ec9579325f14a03027/style.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +44,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../git blow" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="SvnConfiguration">
@@ -62,6 +68,7 @@
       <workItem from="1602175269082" duration="1204000" />
       <workItem from="1602223612467" duration="5471000" />
       <workItem from="1602235064437" duration="61000" />
+      <workItem from="1602246607476" duration="5662000" />
     </task>
     <task id="LOCAL-00001" summary="end project">
       <created>1602174912265</created>

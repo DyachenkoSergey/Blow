@@ -121,11 +121,13 @@ body{
     .logo_header {
       width: 104px;
       height: 30px;
-      animation-name: flashing_logo;
-      animation-duration: 10s;
-      animation-delay: 0s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
+      @include max-screen(420px) {
+        animation-name: flashing_logo;
+        animation-duration: 10s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
 
       img {
         width: 100%;

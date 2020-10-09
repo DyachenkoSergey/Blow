@@ -99,12 +99,14 @@ body {
         padding-top: 50px; } }
     .right_part header .logo_header {
       width: 104px;
-      height: 30px;
-      animation-name: flashing_logo;
-      animation-duration: 10s;
-      animation-delay: 0s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear; }
+      height: 30px; }
+      @media screen and (max-width: 420px) {
+        .right_part header .logo_header {
+          animation-name: flashing_logo;
+          animation-duration: 10s;
+          animation-delay: 0s;
+          animation-iteration-count: infinite;
+          animation-timing-function: linear; } }
       .right_part header .logo_header img {
         width: 100%;
         height: 100%; }

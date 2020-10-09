@@ -121,10 +121,15 @@ body{
     .logo_header {
       width: 104px;
       height: 30px;
+      animation-name: flashing_logo;
+      animation-duration: 10s;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
 
       img {
-        width: 100%;
-        height: 100%;
+        width: 95%;
+        height: 95%;
       }
 
     }
@@ -258,4 +263,15 @@ nav{
     opacity: 1;
   }
   
+}
+@keyframes flashing_logo {
+  0%{
+    background-color: transparent;
+  }
+  50%{
+    background-color: #453021;
+  }
+  100%{
+    background-color: transparent;
+  }
 }

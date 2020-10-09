@@ -81,6 +81,9 @@ body {
       width: 100%;
       float: none;
       height: 90vh; } }
+  @media screen and (max-width: 420px) {
+    .right_part {
+      background-position-x: 60%; } }
   .right_part header {
     max-width: 85%;
     margin: auto;
@@ -96,10 +99,6 @@ body {
       .right_part header .logo_header img {
         width: 100%;
         height: 100%; }
-
-@media screen and (max-width: 375px) {
-  .right_part {
-    background-position-x: 50%; } }
 
 nav ul li {
   display: inline-block; }
@@ -131,7 +130,16 @@ nav ul li {
       font-size: 17px;
       padding: 5px 10px;
       bottom: 100px;
-      left: 90px; } }
+      left: 200px; } }
+  @media screen and (max-width: 420px) {
+    .right_part .last_link a {
+      left: 120px; } }
+  @media screen and (max-width: 375px) {
+    .right_part .last_link a {
+      left: 100px; } }
+  @media screen and (max-width: 320px) {
+    .right_part .last_link a {
+      left: 80px; } }
 
 @keyframes spinning {
   0% {

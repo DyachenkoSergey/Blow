@@ -102,6 +102,9 @@ body{
     float: none;
     height: 90vh;
   }
+  @include max-screen(420px){
+    background-position-x: 60%;
+  }
   header {
     max-width: 85%;
     margin: auto;
@@ -122,11 +125,8 @@ body{
     }
   }
 }
-.right_part{
-  @include max-screen(375px){
-    background-position-x: 50%;
-  }
-}
+
+
 nav{
   ul{
     li{
@@ -166,7 +166,16 @@ nav{
     font-size: $fs-17;
     padding: 5px 10px;
     bottom: 100px;
-    left: 90px;
+    left: 200px;
+  }
+  @include max-screen(420px){
+    left: 120px;
+  }
+  @include max-screen(375px){
+    left: 100px;
+  }
+  @include max-screen(320px){
+    left: 80px;
   }
 }
 @keyframes spinning {

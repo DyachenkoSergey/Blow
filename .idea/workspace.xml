@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9168a7c-8b93-49d9-b698-e66518bdaa1a" name="Default Changelist" comment="" />
+    <list default="true" id="f9168a7c-8b93-49d9-b698-e66518bdaa1a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/69ff39d0a4b9d17fa97d29ec9579325f14a03027/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/69ff39d0a4b9d17fa97d29ec9579325f14a03027/style.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +67,8 @@
       <workItem from="1602175269082" duration="1204000" />
       <workItem from="1602223612467" duration="5471000" />
       <workItem from="1602235064437" duration="61000" />
-      <workItem from="1602246607476" duration="5936000" />
+      <workItem from="1602246607476" duration="6396000" />
+      <workItem from="1602253557523" duration="1051000" />
     </task>
     <task id="LOCAL-00001" summary="end project">
       <created>1602174912265</created>
@@ -84,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602252576593</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="good bg and border links">
+      <created>1602252756220</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602252756220</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,10 +165,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="good bg and border links" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1602252573579">
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1602252753906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602252573579" />
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602252753906" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1602228691890">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -167,10 +181,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602235125625" />
-    <state x="361" y="134" key="Vcs.Push.Dialog.v2" timestamp="1602252583581">
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2" timestamp="1602252758962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602252583581" />
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602252758962" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601971070541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

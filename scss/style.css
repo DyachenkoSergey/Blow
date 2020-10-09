@@ -75,10 +75,7 @@ body {
   width: 95%;
   text-align: center;
   float: right;
-  position: relative;
-  /*@include max-screen(420px){
-    background-position-x: 60%;
-  }*/ }
+  position: relative; }
   @media screen and (max-width: 767px) {
     .right_part {
       background-image: url("../images/blow_img_mobile.png");
@@ -113,9 +110,10 @@ body {
   .right_part .center_inscription {
     display: none;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     color: #fff;
+    text-shadow: 0 10px 10px #0D0D0D;
     animation-name: flashing;
     animation-duration: 5s;
     animation-delay: 0s;
@@ -127,6 +125,8 @@ body {
     @media screen and (max-width: 320px) {
       .right_part .center_inscription {
         font-size: 40px; } }
+    .right_part .center_inscription h1 {
+      opacity: 0.8; }
 
 nav ul li {
   display: inline-block; }
@@ -204,18 +204,15 @@ nav ul li {
   100% {
     left: 0; } }
 @keyframes flashing {
-  0% {
-    opacity: 1; }
   50% {
-    opacity: 1;
-    font-size: 30px; }
-  100% {
-    opacity: 1; } }
+    font-size: 30px;
+    text-shadow: none; } }
 @keyframes flashing_logo {
   0% {
     background-color: transparent; }
   50% {
-    background-color: #453021; }
+    background-color: #453021;
+    opacity: 0.5; }
   100% {
     background-color: transparent; } }
 

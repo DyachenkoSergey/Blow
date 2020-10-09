@@ -106,9 +106,7 @@ body{
   @include max-screen(420px){
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTpgsKg3Gp2RZEYQTF0kPvSYWX03FT__PHLng&usqp=CAU');
   }
-  /*@include max-screen(420px){
-    background-position-x: 60%;
-  }*/
+
   header {
     max-width: 85%;
     margin: auto;
@@ -139,9 +137,10 @@ body{
   .center_inscription{
     display: none;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: $bold;
     color: $color_white;
+    text-shadow: 0 10px 10px #0D0D0D;
     animation-name: flashing;
     animation-duration: 5s;
     animation-delay: 0s;
@@ -152,6 +151,9 @@ body{
     }
     @include max-screen(320px){
       font-size: 40px;
+    }
+    h1{
+      opacity: 0.8;
     }
   }
 }
@@ -254,17 +256,10 @@ nav{
   }
 }
 @keyframes flashing {
-  0%{
-    opacity: 1;
-  }
   50%{
-    opacity: 1;
     font-size: 30px;
+    text-shadow: none;
   }
-  100%{
-    opacity: 1;
-  }
-  
 }
 @keyframes flashing_logo {
   0%{
@@ -272,6 +267,7 @@ nav{
   }
   50%{
     background-color: #453021;
+    opacity: 0.5;
   }
   100%{
     background-color: transparent;

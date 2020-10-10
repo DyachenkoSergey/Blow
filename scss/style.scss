@@ -23,7 +23,10 @@ $fs-12: 12px;
   border: 1px solid transparent;
   font-size: $fs-22;
 }
-
+html, body{
+  width: 100%;
+  overflow: hidden;
+}
 
 body{
   background-color: $color_white;

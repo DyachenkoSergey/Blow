@@ -8,6 +8,10 @@ nav ul li a, .right_part .last_link a {
   border: 1px solid transparent;
   font-size: 22px; }
 
+html, body {
+  width: 100%;
+  overflow: hidden; }
+
 body {
   background-color: #fff;
   font-family: 'Montserrat', sans-serif;

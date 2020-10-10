@@ -43,7 +43,6 @@ body{
   animation-timing-function: linear;
   @include max-screen(767px){
     transform: rotate(0deg);
-    overflow: hidden;
     width: 100%;
     height: 5%;
     position: relative;

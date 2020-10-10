@@ -27,7 +27,6 @@ body {
   @media screen and (max-width: 767px) {
     .left_part {
       transform: rotate(0deg);
-      overflow: hidden;
       width: 100%;
       height: 5%;
       position: relative;

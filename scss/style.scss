@@ -140,6 +140,7 @@ body{
     font-weight: $bold;
     color: $color_white;
     text-shadow: 0 10px 10px #0D0D0D;
+    margin-top: 200px;
     animation-name: flashing;
     animation-duration: 5s;
     animation-delay: 0s;
@@ -150,6 +151,7 @@ body{
     }
     @include max-screen(320px){
       font-size: 40px;
+      margin-top: 100px;
     }
     h1{
       opacity: 0.8;
